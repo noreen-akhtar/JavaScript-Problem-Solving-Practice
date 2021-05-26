@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
     <title>Document</title>
 </head>
 <body>
-    <center>
-		<b>Click on button to display message: </b><br><br>
-		<input type="button" id="btnShowMsg1" value="Red" onClick='showMessage(this.id)'/>
-		<input type="button" id="btnShowMsg2" value="Green" onClick='showMessage(this.id)'/>
-		<input type="button" id="btnShowMsg3" value="Blue" onClick='showMessage(this.id)'/>
-	</center>
+    <div>
+        <b>Click on button to display message: </b><br><br>
+    </div>
+	<div>
+        <button class="red-btn" id="btnShowMsg1" value="Red" onClick='showMessage(this.id)'>Red</button>
+		<button class="green-btn" type="button" id="btnShowMsg2" value="Green" onClick='showMessage(this.id)'>Green</button>
+		<button class="blue-btn" id="btnShowMsg3" value="Blue" onClick='showMessage(this.id)'>Blue</button>
+    </div>
+		<script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,16 @@
+body{
+    max-width: 500px;
+    margin: auto;
+}
+
+.red-btn{
+    background-color: red;
+}
+
+.green-btn{
+    background-color: rgb(0, 255, 55);
+}
+
+.blue-btn{
+    background-color: rgb(75, 10, 255);
+}
