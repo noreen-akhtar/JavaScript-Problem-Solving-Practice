@@ -1,0 +1,11 @@
+.btn {
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
