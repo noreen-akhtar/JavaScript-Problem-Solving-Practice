@@ -27,5 +27,5 @@ function calculateTemp() {
        result = fahToCel(numberTemp);
        document.getElementById("resultContainer").innerHTML = "= " + result + "°Celsius";
     }
-    
+
  }
