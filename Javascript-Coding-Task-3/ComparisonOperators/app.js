@@ -1,14 +1,6 @@
-// 5. Problem Name: IfElseCondition
+let a = 4;
+let b = 5;
 
-//  Write the if else statement by using the condition that if student has gained marks more than
-//  or equal to 50 then student is pass else student is fail.
+let check = a <= b;
 
-var msg = 'enter the marks of student:';
-//printing message for user input
-var x = prompt(msg);
-if(x>=50){
-    document.write('Pass');
-}
-else if(x<49){
-    document.write('Fail');
-}
+console.log(4 <= 4);
